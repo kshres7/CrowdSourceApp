@@ -10,4 +10,4 @@ This app can be used to report any kind of event from an accident to a music con
 
 # How I built it
 Used 2 Microsoft APIs (Cognitive Service Intelligent Service, Text Analytics), 2 Google APIs (Google Map and Geolocation API) and 2 Microsoft services (Microsoft Azure and Bot Framework). In addition, we also we used MongoDB.
-The programming languages used for the creation of android app and web service are Java, Javascript, HTML CSS, and Python.
+The programming languages used for the creation of android app and web service are Java, Javascript, HTML and CSS.
