@@ -8,3 +8,6 @@ Just imagine a scenario where you are walking through a certain area and sudden 
 
 This app can be used to report any kind of event from an accident to a music concert or even a hackathon event. It is all about public awareness. You get the latest news happening-in near your location faster than CNN, FOX News or any other media. All that is required is just your voice or some descriptions. The data of the user is completely anonymous. Also, there is an option to report on an fake events.
 
+# How I built it
+Used 2 Microsoft APIs (Cognitive Service Intelligent Service, Text Analytics), 2 Google APIs (Google Map and Geolocation API) and 2 Microsoft services (Microsoft Azure and Bot Framework). In addition, we also we used MongoDB.
+The programming languages used for the creation of android app and web service are Java, Javascript, HTML CSS, and Python.
