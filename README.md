@@ -1,4 +1,4 @@
-# CrowdSourceApp
+# CrowdSourceApp - presented at MHacks 8 
 Push Notification using real-time data
 
 # What it does
