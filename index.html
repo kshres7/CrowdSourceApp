@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CrowdSource</title>
+<meta charset="utf-8">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="./materialize.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+<div id="mySidenav" class="sidenav">
+    <h5>Real Time Announcements</h5>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div id="geoData"></div>
+</div>
+<span id="topBar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; CrowdSource</span>
+<div id="main">
+  <div id="map"></div>
+</div>
+<script src="script.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="./materialize.min.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&callback=initMap"></script>
+</body>
+</html>
